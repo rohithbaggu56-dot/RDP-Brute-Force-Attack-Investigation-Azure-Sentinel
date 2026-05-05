@@ -1,4 +1,4 @@
-# RDP Brute Force Attack Investigation – Microsoft Sentinel Lab
+# 🔏RDP Brute Force Attack Investigation – Microsoft Sentinel Lab
 
 ## The Incident
 
@@ -14,6 +14,11 @@ This writeup documents how I investigated it end-to-end: validated the threat, m
 - **Detection layer:** Microsoft Sentinel + Log Analytics workspace
 - **IDS layer:** Suricata on Ubuntu 24.04 VM (for network-level confirmation)
 - **Attacker IP:** 103.108.141.126 (flagged by multiple security vendors on VirusTotal)
+
+---
+
+## Lab Scope
+This is a single-incident investigation lab. In production environments, SOC teams handle 50+ alerts/day with automated response (SOAR), multi-team coordination, and formal escalation workflows. This lab demonstrates the core investigative methodology."
 
 ---
 
